@@ -14,7 +14,7 @@ A rear-wheel <b><u>Drive motor</u> </b>and another motor were used to control th
 <h3><b> Ultrasonic Sensor: </b></h3>
 <p>The Ultrasonic sensor returns a program value that carries the value of the distance, which is measured by sending the Ultrasonic sensor ultrasonic waves until these waves hit the nearest barrier and these waves return to the Ultrasonic sensor and calculate the time and speed and multiply them to get the value of the distance back and forth, to take the correct value we divide The resulting number over 2.</p>
 <br>
-<img src="ultrasonicsensor.webp"  height="360" width="630">
+<img src="photos/ultrasonicsensor.webp"  height="360" width="630">
 <br>
 <br> 
 <br>
@@ -23,7 +23,7 @@ A rear-wheel <b><u>Drive motor</u> </b>and another motor were used to control th
 <p>When white light falls on any surface, some wavelengths of light are absorbed and some of them are reflected depending on the properties of the surface material, and the color we see is the result of the reflection of the remaining wavelengths. White on the body that absorbs all wavelengths except for its color, which is reflected from it, then the diodes array absorbs the reflected rays and generates a current proportional to the intensity of the light، Finally, the transformer converts the current into a square signal (50% modulation) at a frequency.
 Directly proportional to the intensity of the light.</p>
 <br>
-<img src="colorsensor.jpg"  height="270" width="700">
+<img src="photos/colorsensor.jpg"  height="270" width="700">
 <br>
 <br>
 <br>
@@ -34,7 +34,7 @@ PWM - to control the speed.
 H-Bridge - To control the direction of rotation. The speed of the DC motor can be controlled by changing the input voltage. A common approach to doing this is to use PWM (Pulse Width Modulation)
 The direction of rotation of the DC motor can be controlled by changing the polarity of the input voltage. A common way to do this is to use H-Bridge.</p>
 <br>
-<img src="l298n.png"  height="350" width="650">
+<img src="photos/l298n.png"  height="350" width="650">
 <br>
 <br>
 <br>
@@ -42,7 +42,7 @@ The direction of rotation of the DC motor can be controlled by changing the pola
 <h3><b>DC Motors:</b></h3>
 <p>The motor works on the principle of Lorentz force, which says: “Any conductor in which an electric current flows and is located in an external magnetic field is acted upon by a force, and the direction of the force is perpendicular to both the direction of the magnetic field and the direction of the electric current.”</p>
 <br>
-<img src="DCmotor.png"  height="400" width="600">
+<img src="photos/DCmotor.png"  height="400" width="600">
 <br>
 <br>
 <br>
@@ -50,4 +50,4 @@ The direction of rotation of the DC motor can be controlled by changing the pola
 <h3><b>Camera:</b></h3>
 <p>The camera works on capturing images continuously and the images consist of pixels, each pixel carrying only one color. These images taken by the camera are sent to the Raspberry Pi to be analyzed based on the computer Vision, so that the Raspberry, with the help of the open cv library that works in the field of computer vision, recognizes the pixels Which carries the color in our color range, then separates it by itself and makes a masking for it to be used in the rest of the code.</p>
 <br>
-<img src="camera.webp"  height="360" width="630">
+<img src="photos/camera.webp"  height="360" width="630">
